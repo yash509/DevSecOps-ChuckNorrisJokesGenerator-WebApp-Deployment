@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: lms-system-service
+  name: chknorrjks-service
 spec:
   selector:
-    app: lms-system
+    app: chknorrjks
   ports:
     - protocol: TCP
       port: 5000
